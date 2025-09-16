@@ -4,19 +4,28 @@ repo: status-monitor # The name of this repository
 user-agent: circoes
 
 sites:
-  - name: Google
-    url: https://www.asdasikdjasidn.asnbgag.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: LPWKRANK1
+    url: $LPWKRANK1
+  - name: AMPWK
+    url: $AMPWK
+  - name: LOGINWK
+    url: $LOGINWK
+  - name: LOGINNB
+    url: $LOGINNB
+  - name: AMPNB
+    url: $AMPNB
+  - name: AMPE55
+    url: $AMPE55
+  - name: LOGINE55
+    url: $LOGINE55
+  - name: AMPJ
+    url: $AMPJ
+  - name: LOGINJ
+    url: $LOGINJ
+  - name: CHECKERWK_OLD
+    url: $CHECKERWK_OLD
+  - name: CHECKERJ_OLD
+    url: $CHECKERJ_OLD
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
