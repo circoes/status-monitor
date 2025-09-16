@@ -32,6 +32,10 @@ status-website:
       href: /
     - title: Made by Circoes
       href: /
+  robotsText: |
+    User-agent: *
+    Disallow: /
+    Noindex: /
 
 workflowSchedule:
   graphs: "0 0 * * *"
