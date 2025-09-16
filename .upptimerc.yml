@@ -25,6 +25,9 @@ sites:
     url: $AMPEXTRA
   - name: LOGINEXTRA
     url: $LOGINEXTRA
+    expectedStatusCodes:
+      - 200
+      - 403
   - name: CHECKERWK_OLD
     url: $CHECKERWK_OLD
   - name: CHECKEREXTRA_OLD
