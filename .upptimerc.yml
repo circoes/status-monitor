@@ -21,14 +21,14 @@ sites:
     expectedStatusCodes:
       - 200
       - 403
-  - name: AMPJ
-    url: $AMPJ
-  - name: LOGINJ
-    url: $LOGINJ
+  - name: AMPEXTRA
+    url: $AMPEXTRA
+  - name: LOGINEXTRA
+    url: $LOGINEXTRA
   - name: CHECKERWK_OLD
     url: $CHECKERWK_OLD
-  - name: CHECKERJ_OLD
-    url: $CHECKERJ_OLD
+  - name: CHECKEREXTRA_OLD
+    url: $CHECKEREXTRA_OLD
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
